@@ -1,0 +1,81 @@
+# Tableau Workbooks by Yesus Ena
+
+Sprint 4 Data Visualization with Tableau Project with user friendly data visualizations
+Data Source https://practicum-content.s3.us-west-1.amazonaws.com/data-eng/remodeled/dvwt/Superstore.xls?etag=4616d537c163874941cf5fc3c9002fa8
+Superstore.xls
+
+
+## Workbooks
+
+### 1. **Book1.5**
+   - **Description**: This workbook offers a focused analysis of [Two biggest profit and lost centers for store].
+   - **Key Features**:
+     - Four regions : Central, East, South, West
+     - Measures : profit, sales, quantity, discount
+     - Two biggest profit center: East and West. Two biggest lost center: Central and South
+
+
+### 2. **Book2**
+   - **Description**: A comprehensive analysis of [Products with Negative profit Margins to stop selling].
+   - **Key Features**:
+     - Product name from store plotted against their average profit margins
+     - Products with positive profit margins filtered out
+     - Product IDs added to Color Marks for Dynamic charts and graphs visuals
+
+### 3. **Book2.5**
+   - **Description**: Explore insights on [Sub-category products with less than 10% profit margin to stop selling].
+   - **Key Features**:
+     - Sub-category plotted against aggregate profit margins
+     - Sub-categories identified to stop selling : Storage, Chairs, Machines.
+     - Sub-categories to promote: Labels, Paper, Envelopes.
+
+### 4. **Book3.5**
+   - **Description**: This workbook dives into [Dashboard representation of first three workbooks], providing detailed visualizations.
+   - **Key Features**:
+     - Workbook 1.5, 2 and 2.5 respectively.
+
+### 5. **Book4**
+   - **Description**: This visualization focuses on [Three best states and months of year with highest average profit to advertise].
+   - **Key Features**: Average profits, average sales as revenue, month of year, state
+     - Sates: Indiana, Missouri, Vermont
+     - Months: October, October, November, respectively.
+     - Plots on scattered dots chart
+
+### 6. **Book5**
+   - **Description**: Get a detailed view of [Three states and calculated amount to pay for advertisement] in this workbook.
+   - **Key Features**:
+     - Aggregate ROAS for state parameter, state, month of year, average sales as revenue
+     - ROAS parameter calculated as Revenue(sales) / profit :AVG([Sales]) / (0.2 * AVG([Profit])) 
+     - represented on scattered dots chart
+
+### 7. **Book6**
+   - **Description**: A detailed exploration of [Products with highest returned values (rates) ].
+   - **Key Features**:Orders table left joined to returned table.
+     - Calculated field added to convert NULL and Yes values for returned to 0 and 1 respectively]
+     - Sum of returned values plotted against product name
+     - 13-20 picked as ranged for products with highest returns.
+
+### 8. **Book7**
+   - **Description**: This workbook highlights key insights into [Customers with highest returned values (rates) ] with advanced visualizations.
+   - **Key Features**:
+     - Customer ID and Customer name plotted against Sum of returned values(rates) 
+     - 50-196 as value range for customers with highest returned items
+     - Customer ID added to Color Marks to improve visualization.
+
+### 9. **Book8**
+   - **Description**: Analyze [Average profit VS Average returned rates for state ] 
+   - **Key Features**:
+     - Orders table LEFT joined to Returned table. 
+     - Calculated field added to convert NULL and Yes values for returned to 0 and 1 respectively.
+     - Average of returned values(rates) plotted against average profit for various states
+     - Plotted on bar charts
+     -state variable added to Color Marks for improved visualization
+
+
+## How to Access the Workbooks
+
+These workbooks are available on my [https://public.tableau.com/app/profile/yesus.ena/vizzes]. Each workbook is user interactive, allowing you to explore data and gain insights based on different perspectives.
+
+## About the Author
+
+This Tableau projects tell impactful data stories that showcases transformed complex data into actionable insights and visually compelling dashboards.
